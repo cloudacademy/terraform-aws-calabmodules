@@ -6,7 +6,7 @@ variable "subnet_id" {
 variable "instance_size" {
   description = "Size of the EC instance"
   type        = string
-  default     = "t3.nano"
+  default     = "t2.micro"
 }
 
 variable "num_nodes" {
